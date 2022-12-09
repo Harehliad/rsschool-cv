@@ -1,3 +1,4 @@
+
 ![foto](jpg/foto.jpg)
 # Mikhail Harehliad #
 ***
@@ -5,12 +6,12 @@
 ***
 + E-mail: [email](HarehliadML@gmail.com)
 + Tel:   +375297470764
-+ GitHub: Harehliad__ 
-+ Discord: Hmikhail#3024__
++ GitHub: Harehliad
++ Discord: Hmikhail#3024
 ***
 ### Education ###
 ***
-__BSUIR   years of education 2000-2005__
+BSUIR   years of education 2000-2005
 ***
 ###  Place of work, position ###
 + SC Mogilevliftmash, programmer engineer - 2005-2007
@@ -19,6 +20,6 @@ __BSUIR   years of education 2000-2005__
 ***
 ### English level ###
 ***
-__Elementary__
+Elementary
 ***
 
