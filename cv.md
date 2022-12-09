@@ -15,9 +15,9 @@ __BSUIR   years of education 2000-2005__
 ###  Place of work, position ###
 + SC Mogilevliftmash, programmer engineer - 2005-2007
 + JLLC MTS, engineer - 2007-2013
-+ LLC AlpIndustriy, radio engineer - 2013-...
-*******
-### 4. English level ###
++ LLC AlpIndustriy, radio engineer - 2013-
+***
+### English level ###
 ***
 __Elementary__
 ***
