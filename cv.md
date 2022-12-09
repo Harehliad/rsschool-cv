@@ -3,19 +3,19 @@
 *******
 ### 1. My Contacts ###
 *******
-__E-mail:__ [email](HarehliadML@gmail.com)
-__Tel:__    +375297470764
-__GitHub: Harehliad__ 
-__Discord: Hmikhail#3024__
++ E-mail: [email](HarehliadML@gmail.com)
++ Tel:   +375297470764
++ GitHub: Harehliad__ 
++ Discord: Hmikhail#3024__
 *******
 ### 2. Education ###
 *******
 __BSUIR   years of education 2000-2005__
 *******
 ### 3. Place of work, position ###
-__JSC Mogilevliftmash, programmer engineer - 2005-2007__
-__JLLC MTS, engineer - 2007-2013__
-__LLC AlpIndustriy, radio engineer - 2013-...__
++ SC Mogilevliftmash, programmer engineer - 2005-2007
++ JLLC MTS, engineer - 2007-2013
++ LLC AlpIndustriy, radio engineer - 2013-...
 *******
 ### 4. English level ###
 *******
