@@ -48,6 +48,4 @@ for(let j = 1; j <= navMenu.length; j++){
     + ![discord](./foto/Discord.jpg "discord harehliadml") [discord](https://discordapp.com/users/1045768740052160613/)
     + ![Phone](./foto/phone.png "Phone harehliadml") [Phone](tel:+375297470764)
 ****
-[RS School  - Anyone can become a Frontend Developer ](https://app.rs.school/) 
-
-
+[RS School  - Anyone can become a Frontend Developer ](https://app.rs.school/)
