@@ -68,7 +68,6 @@ nav{
     border: grey 1.5px solid;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(128,128,128, 0.5);
-    
 }
 .nav--menu-act{
     background-color: gray;
@@ -88,11 +87,9 @@ nav{
     width: 30%;
     height: 120px;
     border-radius: 20px;
-    
     box-shadow: 0 0 15px rgba(128,128,128, 0.5);
 }
 h3{
-    
     text-align: left;
     padding: 5px;
 }
@@ -112,8 +109,6 @@ a{
 }
 .contact--info{
     display: flex;
-    
-    
 }
 .conteiner--footer{
     width: 95%;
@@ -127,7 +122,9 @@ a{
     cursor: pointer;
     width: 70px;
     height: 70px;
-    background-size: 70px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .non{
     display: none;
@@ -171,21 +168,19 @@ img{
     height: 150px;
     background-size: 150px 150px;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(128,128,128, 0.5); 
-      
+    box-shadow: 0 0 15px rgba(128,128,128, 0.5);
 }
 .icon--messenger-act{
     display: flex;
-    
 }
 .contentExtended-languages{
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 .contact{
-    display: flex; 
-    flex-direction: column; 
-    justify-content : space-between; 
+    display: flex;
+    flex-direction: column;
+    justify-content : space-between;
     height: 100%;
 }
 .mail{
@@ -206,12 +201,19 @@ img{
 .viber{
     background-image: url(/rsschool-cv/assets/viber.svg);
 }
-.git{
-    background-image: url(/rsschool-cv/assets/github\ \(1\).svg);
+.logo-img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 .rsschool{
     background-image: url(/rsschool-cv/assets/logo_rs2.svg);
 }
 .map--mogilev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    height: 100%;
+    width: 100%;
 }
