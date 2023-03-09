@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+h1{
+    font-style: inherit;
+    text-shadow: 1px 1px 2px black;
+}
+body{
+    margin: 5px 0px 0px 5px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+footer{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 300px;
+}
+.conteiner--styl{
+    background-color: #ffffff;
+ }
+.conteinet--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: grey 0.5px solid;
+    width: 95%;
+    height: 110px;
+}
+.header-foto{
+    border-radius: 10px 10px 0px 10px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    background-image: url("../assets/foto.png");
+    box-shadow: 0 0 5px rgba(128,128,128, 0.5);
+}
+nav{
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: grey 0.5px solid;
+}
+.nav--menu{
+    cursor: pointer;
+    padding: 5px;
+    border: grey 1.5px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(128,128,128, 0.5);
+}
+.nav--menu-act{
+    background-color: gray;
+    color: #ffffff;
+}
+.main--conteiner{
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(128,128,128, 0.5);
+}
+h3{
+    text-align: left;
+    padding: 5px;
+}
+.content-infa{
+    width: 95%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+.contacts--icon{
+    width: 30px;
+    height: 20px;
+    background-size: 30px 20px;
+}
+.contact--info{
+    display: flex;
+}
+.conteiner--footer{
+    width: 95%;
+    padding-top: 5px;
+    border-top: 0.5px solid gray;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.footer--icon{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.non{
+    display: none;
+}
+.extended--information{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(128,128,128, 0.5);
+    margin: auto;
+    padding: 15px;
+}
+.extended--information-act{
+    display: flex;
+}
+.contentExtended{
+    width: 100%;
+    height: 80%;
+}
+p{
+    font-style:italic;
+    padding: 5px;
+    text-align: left;
+}
+img{
+    width: 40px;
+    height: 50%;
+}
+.contentExtended-contacts{
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    justify-content:space-between;
+    align-items: center;
+}
+.icon--messenger{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(128,128,128, 0.5);
+}
+.icon--messenger-act{
+    display: flex;
+}
+.contentExtended-languages{
+    display: flex;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content : space-between;
+    height: 100%;
+}
+.mail{
+    background-image: url(/rsschool-cv/assets/mail.svg);
+}
+.github{
+    background-image: url(/rsschool-cv/assets/github.svg);
+}
+.discor{
+    background-image: url(/rsschool-cv/assets/Discord.svg);
+}
+.telefon{
+    background-image: url(/rsschool-cv/assets/phone.svg);
+}
+.telegram{
+    background-image: url(/rsschool-cv/assets/telegram.svg);
+}
+.viber{
+    background-image: url(/rsschool-cv/assets/viber.svg);
+}
+.logo-img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.rsschool{
+    background-image: url(/rsschool-cv/assets/logo_rs2.svg);
+}
+.map--mogilev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
