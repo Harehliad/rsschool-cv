@@ -3,35 +3,6 @@ let navMenu     = document.querySelectorAll('.nav--menu'),
     switchMain  = document.querySelectorAll('.switch--main');
 let kolPresButton = 0;
 navMenu[0].classList.add('nav--menu-act');
-/*
-for(let i =0; i < navMenu.length; i++){
-        navMenu[i].addEventListener('click', ()=>{
-
-    if(navMenu[i].classList.contains("nav--menu-act")){ // -убираем нажатие кнопки при повторном нажатии
-        navMenu[i].classList.remove("nav--menu-act")
-        kolPresButton --;
-    }
-    else if (kolPresButton == 5){         //если нажаты все кнопки подсв. general и гасим все остольные
-            navMenu[0].classList.add('nav--menu-act')
-        for(let j = 1; j <= navMenu.length-1; j++){
-            navMenu[j].classList.remove('nav--menu-act')
-        }
-            kolPresButton = 0;
-    }
-    else if(i == 0){ //если нажали кнопку general гасим все другие
-        navMenu[i].classList.add('nav--menu-act')
-        for(let j = 1; j <= navMenu.length; j++){
-        navMenu[j].classList.remove('nav--menu-act')
-        }
-        kolPresButton = 0;
-    } else{   //подсвечиваем выбранную кнопку и гасим general
-        kolPresButton ++;
-        navMenu[i].classList.add('nav--menu-act')
-        navMenu[0].classList.remove('nav--menu-act')
-    }
-    })
-}
-*/
 //-----------------------------------v1.1--------------------------------------------------------------
 for(let i =0; i < navMenu.length; i++){
     navMenu[i].addEventListener('click', ()=>{
