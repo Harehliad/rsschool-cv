@@ -18,7 +18,7 @@ for(let i =0; i < navMenu.length; i++){
         }
             kolPresButton = 0;
     }
-    else if(i == 0){ //если нажали кнопку general гасим все другие 
+    else if(i == 0){ //если нажали кнопку general гасим все другие
         navMenu[i].classList.add('nav--menu-act')
         for(let j = 1; j <= navMenu.length; j++){
         navMenu[j].classList.remove('nav--menu-act')
@@ -34,7 +34,6 @@ for(let i =0; i < navMenu.length; i++){
 */
 //-----------------------------------v1.1--------------------------------------------------------------
 for(let i =0; i < navMenu.length; i++){
-    
     navMenu[i].addEventListener('click', ()=>{
         if( i == 0){
             menuDefolt(i)
@@ -88,10 +87,10 @@ let content = document.querySelectorAll('.content'),
 //----------------------------------------------------------------------------------------------------------
 function menuWindows(element) {
     for ( let i=0; i < navMenu.length-1; i++ ){
-        content[i].classList.add('non')   
+        content[i].classList.add('non')
     }
     extendedInformation[element-1].classList.add('extended--information-act')
-    //extendedInformation[0].classList.add('extended--information-act') 
+    //extendedInformation[0].classList.add('extended--information-act')
 }
 //---------------------------------------------------------------------------------------------------------
 function menuDefolt(element){
